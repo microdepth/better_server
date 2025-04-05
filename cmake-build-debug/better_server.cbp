@@ -1,0 +1,1746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="better_server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/psdab/CLionProjects/better_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="better_server">
+				<Option output="C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/better_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/psdab/CLionProjects/better_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/psdab/CLionProjects/your_psnetlib_folder/include"/>
+					<Add directory="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 better_server"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="better_server/fast">
+				<Option output="C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/better_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/psdab/CLionProjects/better_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/psdab/CLionProjects/your_psnetlib_folder/include"/>
+					<Add directory="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 better_server/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/psdab/CLionProjects/better_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/psdab/CLionProjects/better_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/psdab/CLionProjects/better_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/psdab/CLionProjects/better_server/main.cpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/CLionProjects/better_server/net_client.h">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/CLionProjects/better_server/net_common.h">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/CLionProjects/better_server/net_connection.h">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/CLionProjects/better_server/net_message.h">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/CLionProjects/better_server/net_server.h">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/CLionProjects/better_server/net_tsqueue.h">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/CLionProjects/better_server/ps_net.h">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/any_completion_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/any_completion_handler.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/any_io_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/append.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/as_tuple.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/associated_allocator.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/associated_cancellation_slot.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/associated_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/associated_immediate_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/associator.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/async_result.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/awaitable.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_datagram_socket.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_deadline_timer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_file.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_io_object.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_random_access_file.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_raw_socket.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_readable_pipe.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_seq_packet_socket.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_serial_port.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_signal_set.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_socket.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_socket_acceptor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_socket_iostream.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_socket_streambuf.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_stream_file.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_stream_socket.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_streambuf.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_streambuf_fwd.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_waitable_timer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_writable_pipe.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/bind_allocator.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/bind_cancellation_slot.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/bind_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/bind_immediate_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffer_registration.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffered_read_stream.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffered_read_stream_fwd.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffered_stream.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffered_stream_fwd.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffered_write_stream.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffered_write_stream_fwd.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffers_iterator.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/cancellation_signal.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/cancellation_state.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/cancellation_type.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/co_spawn.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/completion_condition.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/compose.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/connect.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/connect_pipe.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/consign.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/coroutine.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/deadline_timer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/defer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/deferred.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detached.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/array.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/array_fwd.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/assert.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/atomic_count.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/base_from_cancellation_state.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/base_from_completion_cond.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/bind_handler.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/blocking_executor_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/buffer_resize_guard.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/buffer_sequence_adapter.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/buffered_stream_storage.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/call_stack.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/chrono.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/chrono_time_traits.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/completion_handler.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/composed_work.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/concurrency_hint.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/conditionally_enabled_event.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/conditionally_enabled_mutex.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/config.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/consuming_buffers.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/cstddef.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/cstdint.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/date_time_fwd.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/deadline_timer_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/dependent_type.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/descriptor_ops.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/descriptor_read_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/descriptor_write_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/dev_poll_reactor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/epoll_reactor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/event.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/eventfd_select_interrupter.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/exception.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/executor_function.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/executor_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/fd_set_adapter.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/fenced_block.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/functional.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/future.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/global.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/handler_alloc_helpers.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/handler_cont_helpers.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/handler_tracking.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/handler_type_requirements.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/handler_work.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/hash_map.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/dev_poll_reactor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/epoll_reactor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/io_uring_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/kqueue_reactor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/select_reactor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/service_registry.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/strand_executor_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/strand_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/win_iocp_io_context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/winrt_timer_scheduler.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/initiate_defer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/initiate_dispatch.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/initiate_post.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_control.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_object_impl.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_descriptor_read_at_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_descriptor_read_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_descriptor_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_descriptor_write_at_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_descriptor_write_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_file_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_null_buffers_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_operation.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_accept_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_connect_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_recv_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_recvfrom_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_recvmsg_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_send_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_sendto_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_service_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_wait_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/is_buffer_sequence.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/is_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/keyword_tss_ptr.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/kqueue_reactor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/limits.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/local_free_on_block_exit.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/memory.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/mutex.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/non_const_lvalue.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/noncopyable.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_event.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_fenced_block.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_global.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_mutex.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_reactor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_signal_blocker.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_socket_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_static_mutex.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_thread.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_tss_ptr.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/object_pool.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/old_win_sdk_compat.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/op_queue.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/operation.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/pipe_select_interrupter.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/pop_options.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_event.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_fd_set_adapter.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_global.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_mutex.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_serial_port_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_signal_blocker.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_static_mutex.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_thread.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_tss_ptr.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/push_options.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_descriptor_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_null_buffers_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_accept_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_connect_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_recv_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_recvfrom_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_recvmsg_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_send_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_sendto_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_service_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_wait_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactor_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactor_op_queue.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/recycling_allocator.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/regex_fwd.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/resolve_endpoint_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/resolve_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/resolve_query_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/resolver_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/resolver_service_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/scheduler.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/scheduler_operation.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/scheduler_task.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/scheduler_thread_info.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/scoped_lock.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/scoped_ptr.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/select_interrupter.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/select_reactor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/service_registry.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/signal_blocker.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/signal_handler.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/signal_init.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/signal_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/signal_set_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/socket_holder.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/socket_ops.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/socket_option.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/socket_select_interrupter.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/socket_types.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/source_location.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/static_mutex.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/std_event.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/std_fenced_block.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/std_global.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/std_mutex.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/std_static_mutex.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/std_thread.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/strand_executor_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/strand_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/string_view.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/thread.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/thread_context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/thread_group.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/thread_info_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/throw_error.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/throw_exception.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/timer_queue.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/timer_queue_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/timer_queue_ptime.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/timer_queue_set.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/timer_scheduler.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/timer_scheduler_fwd.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/tss_ptr.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/type_traits.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/utility.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/wait_handler.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/wait_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_event.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_fd_set_adapter.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_global.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_file_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_handle_read_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_handle_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_handle_write_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_io_context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_null_buffers_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_operation.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_overlapped_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_overlapped_ptr.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_serial_port_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_accept_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_connect_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_recv_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_recvfrom_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_recvmsg_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_send_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_service_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_thread_info.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_wait_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_mutex.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_object_handle_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_static_mutex.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_thread.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_tss_ptr.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winapp_thread.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/wince_thread.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_async_manager.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_async_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_resolve_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_resolver_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_socket_connect_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_socket_recv_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_socket_send_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_ssocket_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_ssocket_service_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_timer_scheduler.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_utils.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winsock_init.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/work_dispatcher.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/wrapped_handler.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/dispatch.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/error.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/error_code.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/allocator.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/any_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/bad_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/blocking.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/blocking_adaptation.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/context_as.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/invocable_archetype.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/mapping.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/occupancy.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/outstanding_work.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/prefer_only.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/relationship.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution_context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/executor_work_guard.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/append.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/as_single.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/as_tuple.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/awaitable_operators.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/basic_channel.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/basic_concurrent_channel.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/cancellation_condition.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/channel.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/channel_error.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/channel_traits.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/co_composed.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/co_spawn.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/concurrent_channel.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/coro.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/coro_traits.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/deferred.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_handler.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_message.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_operation.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_payload.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_receive_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_send_functions.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_send_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/coro_completion_handler.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/coro_promise_allocator.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/has_signature.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/impl/channel_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/partial_promise.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/as_single.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/co_composed.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/coro.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/parallel_group.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/promise.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/use_coro.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/use_promise.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/parallel_group.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/prepend.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/promise.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/use_coro.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/use_promise.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/file_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/generic/basic_endpoint.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/generic/datagram_protocol.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/generic/detail/endpoint.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/generic/raw_protocol.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/generic/seq_packet_protocol.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/generic/stream_protocol.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/handler_continuation_hook.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/high_resolution_timer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/append.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/as_tuple.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/awaitable.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/buffered_read_stream.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/buffered_write_stream.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/co_spawn.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/connect.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/connect_pipe.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/consign.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/deferred.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/detached.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/execution_context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/io_context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/prepend.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/read.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/read_at.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/read_until.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/redirect_error.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/serial_port_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/spawn.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/src.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/system_context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/system_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/thread_pool.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/use_awaitable.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/use_future.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/write.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/write_at.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/io_context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/io_context_strand.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/io_service.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/io_service_strand.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address_v4.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address_v4_iterator.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address_v4_range.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address_v6.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address_v6_iterator.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address_v6_range.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/bad_address_cast.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/basic_endpoint.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/basic_resolver.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/basic_resolver_entry.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/basic_resolver_iterator.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/basic_resolver_query.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/basic_resolver_results.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/detail/endpoint.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/detail/socket_option.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/host_name.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/icmp.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/impl/address.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/impl/address_v4.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/impl/address_v6.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/impl/basic_endpoint.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/impl/network_v4.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/impl/network_v6.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/multicast.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/network_v4.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/network_v6.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/resolver_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/resolver_query_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/tcp.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/udp.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/unicast.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/v6_only.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/is_applicable_property.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/is_contiguous_iterator.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/is_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/is_read_buffered.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/is_write_buffered.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/local/basic_endpoint.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/local/connect_pair.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/local/datagram_protocol.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/local/detail/endpoint.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/local/seq_packet_protocol.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/local/stream_protocol.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/multiple_exceptions.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/packaged_task.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/placeholders.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/posix/basic_descriptor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/posix/basic_stream_descriptor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/posix/descriptor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/posix/descriptor_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/posix/stream_descriptor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/post.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/prefer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/prepend.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/query.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/random_access_file.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/read.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/read_at.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/read_until.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/readable_pipe.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/recycling_allocator.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/redirect_error.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/registered_buffer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/require.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/require_concept.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/serial_port.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/serial_port_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/signal_set.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/signal_set_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/socket_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/spawn.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/context_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/buffered_handshake_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/engine.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/handshake_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/io.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/openssl_init.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/openssl_types.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/password_callback.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/read_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/shutdown_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/stream_core.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/verify_callback.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/write_op.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/error.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/host_name_verification.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/impl/context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/impl/src.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/rfc2818_verification.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/stream.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/stream_base.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/verify_context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/verify_mode.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/static_thread_pool.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/steady_timer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/strand.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/stream_file.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/streambuf.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/system_context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/system_error.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/system_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/system_timer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/this_coro.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/thread.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/thread_pool.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/time_traits.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/equality_comparable.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/execute_member.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/prefer_free.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/prefer_member.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/query_free.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/query_member.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/query_static_constexpr_member.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/require_concept_free.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/require_concept_member.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/require_free.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/require_member.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/static_query.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/static_require.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/static_require_concept.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/buffer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/internet.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/io_context.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/net.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/netfwd.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/socket.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/timer.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/unyield.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/use_awaitable.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/use_future.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/uses_executor.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/version.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/wait_traits.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/basic_object_handle.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/basic_overlapped_handle.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/basic_random_access_handle.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/basic_stream_handle.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/object_handle.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/overlapped_handle.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/overlapped_ptr.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/random_access_handle.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/stream_handle.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/writable_pipe.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/write.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/write_at.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/yield.hpp">
+			<Option target="better_server"/>
+		</Unit>
+		<Unit filename="C:/Users/psdab/CLionProjects/better_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

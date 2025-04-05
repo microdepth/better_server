@@ -1,0 +1,3447 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "better_server.exe"
+		},
+		{
+			"path" : "better_server.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/psdab/CLionProjects/your_psnetlib_folder/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "better_server::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lwsock32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "better_server",
+	"nameOnDisk" : "better_server.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425,
+				426,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				453,
+				454,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				499,
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543,
+				544,
+				545,
+				546,
+				547,
+				548,
+				549,
+				550
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/any_completion_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/any_completion_handler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/any_io_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/append.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/as_tuple.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/associated_allocator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/associated_cancellation_slot.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/associated_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/associated_immediate_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/associator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/async_result.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/awaitable.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_datagram_socket.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_deadline_timer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_file.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_io_object.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_random_access_file.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_raw_socket.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_readable_pipe.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_seq_packet_socket.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_serial_port.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_signal_set.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_socket.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_socket_acceptor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_socket_iostream.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_socket_streambuf.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_stream_file.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_stream_socket.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_streambuf.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_streambuf_fwd.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_waitable_timer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/basic_writable_pipe.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/bind_allocator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/bind_cancellation_slot.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/bind_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/bind_immediate_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffer_registration.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffered_read_stream.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffered_read_stream_fwd.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffered_stream.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffered_stream_fwd.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffered_write_stream.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffered_write_stream_fwd.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/buffers_iterator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/cancellation_signal.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/cancellation_state.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/cancellation_type.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/co_spawn.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/completion_condition.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/compose.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/connect.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/connect_pipe.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/consign.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/coroutine.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/deadline_timer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/defer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/deferred.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detached.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/array.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/array_fwd.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/assert.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/atomic_count.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/base_from_cancellation_state.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/base_from_completion_cond.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/bind_handler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/blocking_executor_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/buffer_resize_guard.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/buffer_sequence_adapter.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/buffered_stream_storage.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/call_stack.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/chrono.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/chrono_time_traits.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/completion_handler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/composed_work.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/concurrency_hint.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/conditionally_enabled_event.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/conditionally_enabled_mutex.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/config.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/consuming_buffers.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/cstddef.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/cstdint.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/date_time_fwd.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/deadline_timer_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/dependent_type.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/descriptor_ops.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/descriptor_read_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/descriptor_write_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/dev_poll_reactor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/epoll_reactor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/event.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/eventfd_select_interrupter.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/exception.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/executor_function.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/executor_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/fd_set_adapter.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/fenced_block.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/functional.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/future.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/global.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/handler_alloc_helpers.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/handler_cont_helpers.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/handler_tracking.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/handler_type_requirements.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/handler_work.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/hash_map.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/dev_poll_reactor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/epoll_reactor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/io_uring_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/kqueue_reactor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/select_reactor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/service_registry.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/strand_executor_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/strand_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/win_iocp_io_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/impl/winrt_timer_scheduler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/initiate_defer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/initiate_dispatch.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/initiate_post.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_control.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_object_impl.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_descriptor_read_at_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_descriptor_read_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_descriptor_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_descriptor_write_at_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_descriptor_write_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_file_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_null_buffers_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_operation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_accept_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_connect_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_recv_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_recvfrom_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_recvmsg_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_send_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_sendto_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_socket_service_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/io_uring_wait_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/is_buffer_sequence.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/is_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/keyword_tss_ptr.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/kqueue_reactor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/limits.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/local_free_on_block_exit.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/memory.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/mutex.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/non_const_lvalue.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/noncopyable.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_event.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_fenced_block.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_global.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_mutex.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_reactor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_signal_blocker.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_socket_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_static_mutex.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_thread.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/null_tss_ptr.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/object_pool.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/old_win_sdk_compat.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/op_queue.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/operation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/pipe_select_interrupter.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/pop_options.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_event.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_fd_set_adapter.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_global.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_mutex.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_serial_port_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_signal_blocker.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_static_mutex.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_thread.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/posix_tss_ptr.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/push_options.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_descriptor_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_null_buffers_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_accept_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_connect_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_recv_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_recvfrom_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_recvmsg_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_send_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_sendto_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_socket_service_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactive_wait_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactor_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/reactor_op_queue.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/recycling_allocator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/regex_fwd.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/resolve_endpoint_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/resolve_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/resolve_query_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/resolver_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/resolver_service_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/scheduler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/scheduler_operation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/scheduler_task.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/scheduler_thread_info.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/scoped_lock.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/scoped_ptr.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/select_interrupter.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/select_reactor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/service_registry.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/signal_blocker.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/signal_handler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/signal_init.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/signal_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/signal_set_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/socket_holder.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/socket_ops.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/socket_option.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/socket_select_interrupter.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/socket_types.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/source_location.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/static_mutex.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/std_event.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/std_fenced_block.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/std_global.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/std_mutex.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/std_static_mutex.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/std_thread.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/strand_executor_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/strand_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/string_view.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/thread.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/thread_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/thread_group.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/thread_info_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/throw_error.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/throw_exception.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/timer_queue.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/timer_queue_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/timer_queue_ptime.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/timer_queue_set.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/timer_scheduler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/timer_scheduler_fwd.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/tss_ptr.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/type_traits.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/utility.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/wait_handler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/wait_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_event.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_fd_set_adapter.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_global.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_file_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_handle_read_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_handle_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_handle_write_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_io_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_null_buffers_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_operation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_overlapped_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_overlapped_ptr.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_serial_port_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_accept_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_connect_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_recv_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_recvfrom_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_recvmsg_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_send_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_socket_service_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_thread_info.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_iocp_wait_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_mutex.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_object_handle_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_static_mutex.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_thread.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/win_tss_ptr.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winapp_thread.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/wince_thread.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_async_manager.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_async_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_resolve_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_resolver_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_socket_connect_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_socket_recv_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_socket_send_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_ssocket_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_ssocket_service_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_timer_scheduler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winrt_utils.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/winsock_init.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/work_dispatcher.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/detail/wrapped_handler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/dispatch.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/error.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/error_code.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/allocator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/any_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/bad_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/blocking.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/blocking_adaptation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/context_as.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/invocable_archetype.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/mapping.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/occupancy.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/outstanding_work.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/prefer_only.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution/relationship.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/execution_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/executor_work_guard.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/append.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/as_single.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/as_tuple.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/awaitable_operators.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/basic_channel.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/basic_concurrent_channel.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/cancellation_condition.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/channel.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/channel_error.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/channel_traits.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/co_composed.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/co_spawn.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/concurrent_channel.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/coro.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/coro_traits.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/deferred.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_handler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_message.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_operation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_payload.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_receive_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_send_functions.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_send_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/channel_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/coro_completion_handler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/coro_promise_allocator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/has_signature.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/impl/channel_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/detail/partial_promise.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/as_single.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/co_composed.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/coro.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/parallel_group.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/promise.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/use_coro.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/impl/use_promise.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/parallel_group.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/prepend.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/promise.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/use_coro.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/experimental/use_promise.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/file_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/generic/basic_endpoint.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/generic/datagram_protocol.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/generic/detail/endpoint.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/generic/raw_protocol.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/generic/seq_packet_protocol.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/generic/stream_protocol.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/handler_continuation_hook.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/high_resolution_timer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/append.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/as_tuple.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/awaitable.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/buffered_read_stream.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/buffered_write_stream.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/co_spawn.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/connect.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/connect_pipe.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/consign.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/deferred.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/detached.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/execution_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/io_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/prepend.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/read.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/read_at.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/read_until.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/redirect_error.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/serial_port_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/spawn.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/src.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/system_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/system_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/thread_pool.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/use_awaitable.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/use_future.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/write.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/impl/write_at.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/io_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/io_context_strand.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/io_service.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/io_service_strand.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address_v4.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address_v4_iterator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address_v4_range.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address_v6.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address_v6_iterator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/address_v6_range.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/bad_address_cast.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/basic_endpoint.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/basic_resolver.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/basic_resolver_entry.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/basic_resolver_iterator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/basic_resolver_query.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/basic_resolver_results.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/detail/endpoint.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/detail/socket_option.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/host_name.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/icmp.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/impl/address.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/impl/address_v4.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/impl/address_v6.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/impl/basic_endpoint.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/impl/network_v4.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/impl/network_v6.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/multicast.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/network_v4.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/network_v6.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/resolver_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/resolver_query_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/tcp.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/udp.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/unicast.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ip/v6_only.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/is_applicable_property.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/is_contiguous_iterator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/is_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/is_read_buffered.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/is_write_buffered.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/local/basic_endpoint.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/local/connect_pair.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/local/datagram_protocol.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/local/detail/endpoint.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/local/seq_packet_protocol.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/local/stream_protocol.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/multiple_exceptions.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/packaged_task.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/placeholders.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/posix/basic_descriptor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/posix/basic_stream_descriptor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/posix/descriptor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/posix/descriptor_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/posix/stream_descriptor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/post.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/prefer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/prepend.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/query.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/random_access_file.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/read.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/read_at.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/read_until.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/readable_pipe.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/recycling_allocator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/redirect_error.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/registered_buffer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/require.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/require_concept.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/serial_port.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/serial_port_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/signal_set.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/signal_set_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/socket_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/spawn.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/context_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/buffered_handshake_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/engine.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/handshake_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/io.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/openssl_init.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/openssl_types.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/password_callback.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/read_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/shutdown_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/stream_core.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/verify_callback.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/detail/write_op.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/error.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/host_name_verification.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/impl/context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/impl/src.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/rfc2818_verification.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/stream.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/stream_base.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/verify_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ssl/verify_mode.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/static_thread_pool.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/steady_timer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/strand.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/stream_file.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/streambuf.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/system_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/system_error.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/system_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/system_timer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/this_coro.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/thread.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/thread_pool.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/time_traits.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/equality_comparable.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/execute_member.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/prefer_free.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/prefer_member.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/query_free.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/query_member.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/query_static_constexpr_member.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/require_concept_free.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/require_concept_member.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/require_free.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/require_member.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/static_query.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/static_require.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/traits/static_require_concept.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/buffer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/internet.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/io_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/net.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/netfwd.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/socket.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/ts/timer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/unyield.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/use_awaitable.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/use_future.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/uses_executor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/version.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/wait_traits.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/basic_object_handle.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/basic_overlapped_handle.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/basic_random_access_handle.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/basic_stream_handle.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/object_handle.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/overlapped_handle.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/overlapped_ptr.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/random_access_handle.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/windows/stream_handle.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/writable_pipe.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/write.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/write_at.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/psdab/Downloads/asio-1.30.2/asio-1.30.2/include/asio/yield.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "net_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "net_message.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ps_net.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "net_tsqueue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "net_connection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "net_server.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "net_client.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
